@@ -1,0 +1,77 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "inputs": {
+        "systems": "systems"
+      },
+      "locked": {
+        "lastModified": 1701680307,
+        "narHash": "sha256-kAuep2h5ajznlPMD9rnQyffWG8EM/C73lejGofXvdM8=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "4022d587cbbfd70fe950c1e2083a02621806a725",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1701833576,
+        "narHash": "sha256-/9TFwBSPaQJRpIK8WZvZaEvPcVQ5adtzmRt7WMm29XQ=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "bf78e6a54601fc74d8d27fb918a420c84fb6f5b3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "nixpkgs": "nixpkgs",
+        "sword-src": "sword-src"
+      }
+    },
+    "sword-src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1700673471,
+        "narHash": "sha256-aSyQgXMHsZ3ySbWjF963HRIapCPs+WSatPOUOJZKrMc=",
+        "owner": "zachcoyle",
+        "repo": "sword",
+        "rev": "9fb626327bac4f7e4f5f49b23d071257ba6dc664",
+        "type": "github"
+      },
+      "original": {
+        "owner": "zachcoyle",
+        "repo": "sword",
+        "type": "github"
+      }
+    },
+    "systems": {
+      "locked": {
+        "lastModified": 1681028828,
+        "narHash": "sha256-Vy1rq5AaRuLzOxct8nz4T6wlgyUR7zLU309k9mBC768=",
+        "owner": "nix-systems",
+        "repo": "default",
+        "rev": "da67096a3b9bf56a91d16901293e51ba5b49a27e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nix-systems",
+        "repo": "default",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
